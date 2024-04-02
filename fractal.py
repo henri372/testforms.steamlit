@@ -34,12 +34,14 @@ height = st.slider("Height", min_value=100, max_value=1000, value=500)
 zoom = st.slider("Zoom", min_value=1, max_value=100, value=50)
 max_iter = st.slider("Max Iterations", min_value=50, max_value=500, value=200)
 
-# Generate the Mandelbrot fractal
-mandelbrot_img = generate_mandelbrot(width, height, zoom, max_iter)
+# Generate button
+if st.button("Generate"):
+    # Generate the Mandelbrot fractal
+    mandelbrot_img = generate_mandelbrot(width, height, zoom, max_iter)
 
-# Convert the Mandelbrot array to an image
-mandelbrot_img = mandelbrot_img / np.max(mandelbrot_img) * 255
-mandelbrot_img = Image.fromarray(mandelbrot_img.astype(np.uint8)).convert("RGB")
+    # Convert the Mandelbrot array to an image
+    mandelbrot_img = mandelbrot_img / np.max(mandelbrot_img) * 255
+    mandelbrot_img = Image.fromarray(mandelbrot_img.astype(np.uint8)).convert("RGB")
 
-# Display the Mandelbrot fractal image
-st.image(mandelbrot_img, caption="Mandelbrot Fractal", use_column_width=True)
+    # Display the Mandelbrot fractal image
+    st.image(mandelbrot_img, caption="Mandelbrot Fractal", use_column_width=True)
