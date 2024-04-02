@@ -2,41 +2,44 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 
-def generate_ifs_fractal(num_points=50000, num_iterations=1000):
-    # Define transformation functions for the IFS fractal
-    transformations = [
-        (0.85, 0.04, 0.0, 0.85, 0.0, 1.6),  # Transformation 1
-        (0.20, -0.26, 0.23, 0.22, 0.0, 1.6),  # Transformation 2
-        (-0.15, 0.28, 0.26, 0.24, 0.0, 0.44),  # Transformation 3
-        (0.0, 0.0, 0.0, 0.16, 0.0, 0.0)  # Transformation 4
-    ]
+def mandelbrot(c, max_iter):
+    z = c
+    for n in range(max_iter):
+        if abs(z) > 2:
+            return n
+        z = z*z + c
+    return max_iter
 
-    # Initialize points
-    points = np.zeros((num_points, 2))
-    points[0] = [0, 0]
-
-    # Apply transformations
-    for i in range(1, num_points):
-        # Choose a random transformation
-        trans_idx = np.random.choice(len(transformations), p=[0.85, 0.07, 0.07, 0.01])
-        a, b, c, d, e, f = transformations[trans_idx]
-        x, y = points[i - 1]
-        points[i] = [a*x + b*y + e, c*x + d*y + f]
-
-    # Extract x and y coordinates
-    x_coords, y_coords = points[:, 0], points[:, 1]
-
-    # Plot the fractal
-    fig, ax = plt.subplots(figsize=(8, 8))
-    ax.scatter(x_coords, y_coords, color='green', s=0.1)
-    ax.axis('off')  # Turn off axes
-    ax.set_title('IFS Fractal')
+def generate_mandelbrot(width, height, zoom, max_iter):
+    x_min, x_max = -2.5 / zoom, 1.5 / zoom
+    y_min, y_max = -2.0 / zoom, 2.0 / zoom
     
-    # Show plot
-    st.pyplot(fig)
+    # Generate the Mandelbrot set
+    mandelbrot_set = np.zeros((width, height))
+    for x in range(width):
+        for y in range(height):
+            zx = x * (x_max - x_min) / (width - 1) + x_min
+            zy = y * (y_max - y_min) / (height - 1) + y_min
+            c = complex(zx, zy)
+            mandelbrot_set[x, y] = mandelbrot(c, max_iter)
+    
+    return mandelbrot_set
 
 # Streamlit app title
-st.title("IFS Fractal Generator")
+st.title("Mandelbrot Fractal Generator")
 
-# Generate and display the fractal
-generate_ifs_fractal()
+# User input for fractal parameters
+width = st.slider("Width", min_value=100, max_value=1000, value=500)
+height = st.slider("Height", min_value=100, max_value=1000, value=500)
+zoom = st.slider("Zoom", min_value=1, max_value=100, value=50)
+max_iter = st.slider("Max Iterations", min_value=50, max_value=500, value=200)
+
+# Generate the Mandelbrot fractal
+mandelbrot_img = generate_mandelbrot(width, height, zoom, max_iter)
+
+# Display the Mandelbrot fractal
+fig, ax = plt.subplots(figsize=(8, 8))
+ax.imshow(mandelbrot_img.T, extent=(-2.5, 1.5, -2, 2))
+ax.set_title("Mandelbrot Fractal")
+ax.axis('off')
+st.pyplot(fig)
