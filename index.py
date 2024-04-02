@@ -16,8 +16,8 @@ if st.button("Submit"):
     # Check if all fields are filled
     if name and subject and email:
         # Set up email parameters
-        sender_email = "your_email@gmail.com"
-        receiver_email = "receiver_email@gmail.com"  # Change to your recipient's email
+        sender_email = "henri.laupmaa@gmail.com"
+        receiver_email = "henri.laupmaa@gmail.com"  # Change to your recipient's email
         password = "your_password"  # Change to your email password
 
         # Create message object
