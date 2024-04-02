@@ -1,5 +1,9 @@
 import streamlit as st
 import numpy as np
+import matplotlib
+
+# Set the backend explicitly before importing pyplot
+matplotlib.use('Agg')  # Use the 'Agg' backend which does not require a display
 import matplotlib.pyplot as plt
 
 def mandelbrot(c, max_iter):
