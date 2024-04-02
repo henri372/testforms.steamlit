@@ -1,10 +1,6 @@
 import streamlit as st
 import numpy as np
-import matplotlib
-
-# Set the backend explicitly before importing pyplot
-matplotlib.use('Agg')  # Use the 'Agg' backend which does not require a display
-import matplotlib.pyplot as plt
+from PIL import Image
 
 def mandelbrot(c, max_iter):
     z = c
@@ -41,9 +37,9 @@ max_iter = st.slider("Max Iterations", min_value=50, max_value=500, value=200)
 # Generate the Mandelbrot fractal
 mandelbrot_img = generate_mandelbrot(width, height, zoom, max_iter)
 
-# Display the Mandelbrot fractal
-fig, ax = plt.subplots(figsize=(8, 8))
-ax.imshow(mandelbrot_img.T, extent=(-2.5, 1.5, -2, 2))
-ax.set_title("Mandelbrot Fractal")
-ax.axis('off')
-st.pyplot(fig)
+# Convert the Mandelbrot array to an image
+mandelbrot_img = mandelbrot_img / np.max(mandelbrot_img) * 255
+mandelbrot_img = Image.fromarray(mandelbrot_img.astype(np.uint8)).convert("RGB")
+
+# Display the Mandelbrot fractal image
+st.image(mandelbrot_img, caption="Mandelbrot Fractal", use_column_width=True)
