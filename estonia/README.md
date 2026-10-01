@@ -32,3 +32,8 @@ review them and move accepted entries into the JSON files above.
 The repo root contains Pinokio scripts (`pinokio.js`, `install.js`, `start.js`, `update.js`).
 In Pinokio choose **Download from URL**, paste the repository URL, then click **Install** and **Start**.
 The site opens at `http://localhost:8501`.
+
+## Run on Windows without the command line
+
+Double-click `estonia\run.bat`. It creates a Python environment on first run, installs the
+requirements and opens the site at `http://localhost:8501`. Requires Python from python.org.
