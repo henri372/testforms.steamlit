@@ -1,0 +1,56 @@
+[
+  {
+    "id": "hedrenius",
+    "name": "Sara Hedrenius",
+    "role": "Passenger (Sweden), age 18",
+    "location_aboard": "Café Neptunus",
+    "summary": "Was asleep in Café Neptunus and woke to two heavy bangs that made the vessel shake; she thought the ship had hit a rock. Met Kent Härstedt on deck, where they tried in vain to release a lifeboat. They jumped into the sea and found an overturned lifeboat, sharing it with about 22 people through the night as near-freezing waves washed over them.",
+    "themes": ["bangs", "evacuation", "rescue"],
+    "sources": ["hedrenius", "vice"]
+  },
+  {
+    "id": "barney",
+    "name": "Paul Barney",
+    "role": "Passenger (United Kingdom) — the only British survivor",
+    "location_aboard": "Café Neptunus",
+    "summary": "Woke in Café Neptunus to a bang or shock he took to be a collision, followed by cracking and scraping noises and the sensation of something gliding along the hull side. Has publicly questioned the official explanation.",
+    "themes": ["bangs", "collision"],
+    "sources": ["barney_dp"]
+  },
+  {
+    "id": "harstedt",
+    "name": "Kent Härstedt",
+    "role": "Passenger (Sweden), later a member of the Swedish Riksdag",
+    "location_aboard": "Upper decks",
+    "summary": "Climbed to the open deck as the ship listed and searched for a lifeboat; recalled that within seconds everything turned into total chaos. Helped others and, with Sara Hedrenius, survived on an overturned lifeboat.",
+    "themes": ["evacuation", "rescue"],
+    "sources": ["vice", "hedrenius"]
+  },
+  {
+    "id": "linde",
+    "name": "Silver Linde",
+    "role": "Crew — able seaman on watch",
+    "location_aboard": "Car deck, near the bow",
+    "summary": "On routine rounds near the bow door on the car deck, heard a loud bang that seemed to come from the port side and reported it to the bridge.",
+    "themes": ["bangs", "bow"],
+    "sources": ["newstatesman2005", "jaic1997"]
+  },
+  {
+    "id": "sillaste",
+    "name": "Henrik Sillaste",
+    "role": "Crew — engineer",
+    "location_aboard": "Engine control room",
+    "summary": "Told the Associated Press in 1994 that he saw water entering through the front cargo door area on the monitor, that water built up quickly and the ship began to list. He described the outer ramp as closed but the inner door not properly attached.",
+    "themes": ["bow", "flooding"],
+    "sources": ["deseret1994"]
+  },
+  {
+    "id": "sorman",
+    "name": "Rolf Sörman",
+    "role": "Passenger (Sweden)",
+    "location_aboard": "Open deck",
+    "summary": "Handed out life vests on deck amid chaos in which some men were fighting over equipment. Later took part in the 2020 documentary and in calls for a new investigation.",
+    "themes": ["evacuation"],
+    "sources": ["doc2020"]
+  }
+]

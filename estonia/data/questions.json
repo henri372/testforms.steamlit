@@ -1,0 +1,74 @@
+[
+  {
+    "id": "bangs",
+    "question": "What caused the loud bangs heard before the list?",
+    "status": "Partly explained",
+    "official": "JAIC (1997) and the 2025 Preliminary Assessment attribute the noises to wave impacts on the bow visor and the progressive failure of its locks and hinges.",
+    "critics": "Many survivors describe two or more heavy metallic bangs or a collision-like jolt. The Kurm commission (2009) said JAIC contained no comprehensive analysis of what caused them.",
+    "evidence": ["Numerous consistent survivor descriptions of bangs around 01:00", "Visor locking system found to lack a structural safety margin (2025)"],
+    "sources": ["jaic1997", "kurm2009", "pa2025"]
+  },
+  {
+    "id": "hole",
+    "question": "What made the hole in the starboard hull revealed in 2020?",
+    "status": "Officially resolved",
+    "official": "The 2025 joint final report concluded the starboard damage resulted from contact with the seabed when the wreck settled — not a collision or explosion.",
+    "critics": "The 2020 documentary suggested a possible collision with a submerged object; former investigator Margus Kurm has argued for a submarine collision.",
+    "evidence": ["Breach about 4 m high and up to 1.2 m wide (2020 ROV footage)", "Official 2021–2023 seabed and wreck surveys"],
+    "sources": ["doc2020", "pa2025", "kurm2009"]
+  },
+  {
+    "id": "speed",
+    "question": "Why did the ship sink so quickly?",
+    "status": "Partly explained",
+    "official": "Rapid flooding of the open car deck after the ramp opened caused loss of stability. The 2008 SSPA/HSVA studies found the sequence matched JAIC but started earlier than JAIC stated.",
+    "critics": "Critics argue that flooding of the car deck alone cannot explain sinking in under an hour and point to possible hull breaches below the waterline.",
+    "evidence": ["Ship lost from radar around 01:50, under an hour after the first bangs", "Numerical modelling in 2008 and 2025"],
+    "sources": ["sspa2008", "pa2025", "estoniagroup"]
+  },
+  {
+    "id": "visor",
+    "question": "Did the visor fall off before or after the ship listed?",
+    "status": "Disputed by some witnesses",
+    "official": "JAIC and the 2025 report: the visor detached at the beginning of the accident and the ramp then opened fully.",
+    "critics": "Some surviving crew members reportedly said the visor was still in place; the Kurm commission raised this as a reason to doubt the official version.",
+    "evidence": ["Visor recovered from the seabed west of the wreck in 1994", "Bow ramp recovered in July 2023"],
+    "sources": ["jaic1997", "pa2025", "kurm2009", "err_ramp2023"]
+  },
+  {
+    "id": "military",
+    "question": "Was military equipment aboard on the night of the sinking?",
+    "status": "Partly confirmed",
+    "official": "The 2005 Hirschfeldt inquiry confirmed shipments of non-explosive military electronics on 14 and 20 September 1994 but found none on 27–28 September.",
+    "critics": "The inquiry's background material was destroyed, leading to a complaint to the Justice Ombudsman; critics see this as undermining confidence in the conclusion.",
+    "evidence": ["Testimony of customs officer Lennart Henriksson", "Swedish government inquiry 2005"],
+    "sources": ["hirschfeldt2005", "thelocal2006"]
+  },
+  {
+    "id": "explosion",
+    "question": "Was there an explosion?",
+    "status": "Not supported by official findings",
+    "official": "No investigation by the three states has found signs of an explosion; the 2025 report found the bow failure explains the sinking.",
+    "critics": "The German Group of Experts and Jutta Rabe's 2000 expedition claimed traces consistent with explosions near the visor. These claims were disputed by other experts.",
+    "evidence": ["Metal samples from the 2000 dive (contested)", "Official surveys 2021–2023"],
+    "sources": ["germanexperts", "rabe", "pa2025"]
+  },
+  {
+    "id": "grave",
+    "question": "Why was the wreck left on the seabed and declared off-limits?",
+    "status": "Policy decision",
+    "official": "The 1995 Estonia Agreement declared the wreck a final resting place to protect the dead from disturbance.",
+    "critics": "Relatives' groups and critics argue the ban and the decision not to raise the wreck or most victims hindered independent verification. Only 94 bodies were recovered.",
+    "evidence": ["UN-registered treaty text", "Convictions of documentary makers in 2022"],
+    "sources": ["agreement1995", "euronews2022", "sr_tribute"]
+  },
+  {
+    "id": "maintenance",
+    "question": "Was the ship seaworthy, and who bears responsibility?",
+    "status": "Disputed",
+    "official": "JAIC blamed the visor design and its locks (not dimensioned for realistic sea loads), and criticised the crew for maintaining speed in heavy seas.",
+    "critics": "The builder-commissioned German Group of Experts blamed poor maintenance and operation, and a collision bulkhead extension not compliant with SOLAS.",
+    "evidence": ["2008 study noted non-compliance with minimum SOLAS requirements on the forward collision bulkhead"],
+    "sources": ["jaic1997", "germanexperts", "sspa2008"]
+  }
+]
