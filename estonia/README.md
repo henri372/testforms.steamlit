@@ -26,3 +26,9 @@ All content lives in `data/*.json`, so it can be edited without touching code:
 The photo page also searches Wikimedia Commons live and shows each image's licence and author.
 Visitor submissions (testimonies, photos) are saved to `data/submissions.json` as *unverified*;
 review them and move accepted entries into the JSON files above.
+
+## Run with Pinokio (Windows/macOS/Linux)
+
+The repo root contains Pinokio scripts (`pinokio.js`, `install.js`, `start.js`, `update.js`).
+In Pinokio choose **Download from URL**, paste the repository URL, then click **Install** and **Start**.
+The site opens at `http://localhost:8501`.
