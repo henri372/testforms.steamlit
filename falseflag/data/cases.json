@@ -1,0 +1,141 @@
+[
+  {
+    "id": "fz1073-2026",
+    "title": "flydubai FZ1073 attempted crash (Dubai → Tel Aviv)",
+    "date": "2026-09-30",
+    "kind": "live",
+    "event": "A pilot on flydubai flight FZ1073 from Dubai to Tel Aviv allegedly stabbed the captain and tried to crash the aircraft, which dropped nearly 14,000 ft in under 30 seconds. Crew and passengers subdued him and the aircraft made an emergency landing in Saudi Arabia. 174 passengers (almost all Israeli) and 6 crew were aboard; all survived.",
+    "official_account": "Attack by the Omani co-pilot. Saudi authorities arrested him and later handed him to the UAE; Israeli officials described a motive of radical Islamist indoctrination. Investigations into motive are ongoing.",
+    "claim": "The incident was a 'false flag' staged by Israel (e.g. by Netanyahu or Mossad) for political gain.",
+    "keywords": "flydubai FZ1073 OR \"flydubai\" Tel Aviv pilot",
+    "claim_keywords": "flydubai \"false flag\" OR staged",
+    "arguments": [
+      {
+        "side": "for",
+        "text": "Iranian state broadcaster Press TV alleged Netanyahu planned a 'false flag' hijacking to pull the US into renewed military action against Iran.",
+        "evidence_type": "inference",
+        "status": "unverified",
+        "note": "Allegation from state-affiliated media; no documents, witnesses or physical evidence presented.",
+        "sources": [{"title": "Sunday Guardian: 'Did Netanyahu plan a false flag…'", "url": "https://sundayguardianlive.com/world/flydubai-incident-did-netanyahu-plan-a-false-flag-operation-to-push-trump-into-renewed-iran-war-explosive-allegation-emerges-297130/"}]
+      },
+      {
+        "side": "for",
+        "text": "Social media posts argue Netanyahu benefits politically (election, legal cases), so he must have staged it.",
+        "evidence_type": "inference",
+        "status": "unverified",
+        "note": "Motive ('cui bono') reasoning only. Researchers found the first such post 67 minutes after the distress signal, before facts were known.",
+        "sources": [{"title": "Times of Israel: conspiracy theories spread across social media", "url": "https://www.timesofisrael.com/conspiracy-theories-about-flydubai-attack-spread-across-social-media-reports-find/"}]
+      },
+      {
+        "side": "for",
+        "text": "A 'BBC report' circulated online implicating an Indian passenger and the pilot.",
+        "evidence_type": "inference",
+        "status": "debunked",
+        "note": "France 24 found the BBC report was fake.",
+        "sources": [{"title": "France 24 Truth or Fake: fake BBC report", "url": "https://www.france24.com/en/fake-bbc-report-falsely-implicates-indian-passenger-and-pilot-in-flydubai-hijacking-attempt"}]
+      },
+      {
+        "side": "against",
+        "text": "Around 180 people aboard, including crew from the UAE carrier and an Indian captain, witnessed the attack and the struggle in the cockpit.",
+        "evidence_type": "multiple_independent_witnesses",
+        "status": "verified",
+        "note": "Passenger accounts reported by multiple outlets.",
+        "sources": [{"title": "Washington Post", "url": "https://www.washingtonpost.com/business/2026/09/30/israel-saudi-arabia-dubai-emergency-landing/3e24c6ee-bd0a-11f1-81fc-9b76f8343b6c_story.html"}, {"title": "Times of Israel: pilot feted", "url": "https://www.timesofisrael.com/out-of-harms-way-pilot-feted-for-helping-save-lives-of-everyone-aboard-flydubai-flight/"}]
+      },
+      {
+        "side": "against",
+        "text": "The suspect was arrested by Saudi Arabia and handed to the UAE — states that control the investigation and are not Israeli agencies.",
+        "evidence_type": "named_credible_source",
+        "status": "verified",
+        "note": "A staged Israeli operation would require cooperation of Saudi, UAE and Omani parties.",
+        "sources": [{"title": "CNN live coverage", "url": "https://www.cnn.com/2026/09/30/world/live-news/dubai-israel-plane-flydubai-intl"}, {"title": "The Week", "url": "https://www.theweek.in/news/middle-east/2026/10/02/flydubai-flight-scare-omani-co-pilot-has-links-with-iran.html"}]
+      },
+      {
+        "side": "against",
+        "text": "The injured captain is named and was publicly interviewed and honoured; the aircraft's 14,000 ft drop was recorded.",
+        "evidence_type": "named_credible_source",
+        "status": "verified",
+        "note": "",
+        "sources": [{"title": "Ynet: Meet Smit Machchhar", "url": "https://www.ynetnews.com/article/hyeibn9qgx"}]
+      },
+      {
+        "side": "against",
+        "text": "Monitoring found false-flag narratives were recycled from pre-existing conspiracy templates and appeared before facts were available.",
+        "evidence_type": "named_credible_source",
+        "status": "verified",
+        "note": "2,963 posts in 12 hours attributed the incident to Israel/Jews; 81% of late 'false flag' posts contained antisemitic content.",
+        "sources": [{"title": "Combat Antisemitism Movement report", "url": "https://combatantisemitism.org/studies-reports/antisemitic-false-flag-conspiracy-theories-flood-x-within-hour-of-attempted-hijacking-of-israel-bound-flydubai-flight/"}, {"title": "Jerusalem Post", "url": "https://www.jpost.com/diaspora/antisemitism/article-910349"}]
+      }
+    ],
+    "open_questions": [
+      "The co-pilot's motive and any outside links (reports of Iran links are unverified).",
+      "How a crew member was able to bring a knife into the cockpit.",
+      "Findings of the Saudi/UAE investigation, not yet published."
+    ]
+  },
+  {
+    "id": "gleiwitz-1939",
+    "title": "Gleiwitz incident (Germany, 1939)",
+    "date": "1939-08-31",
+    "kind": "calibration",
+    "event": "A German radio station at Gleiwitz was 'attacked' and an anti-German message broadcast in Polish. Germany cited this and similar incidents as justification for invading Poland the next day.",
+    "official_account": "Nazi Germany claimed Polish insurgents attacked the station.",
+    "claim": "The attack was staged by the SS, with men dressed as Poles.",
+    "keywords": "Gleiwitz incident 1939",
+    "claim_keywords": "Gleiwitz false flag",
+    "arguments": [
+      {"side": "for", "text": "SS officer Alfred Naujocks, who led the operation, described it in a sworn affidavit at the Nuremberg trials.", "evidence_type": "official_admission", "status": "verified", "note": "Perpetrator's sworn testimony.", "sources": [{"title": "Nuremberg Trial Proceedings (Avalon Project)", "url": "https://avalon.law.yale.edu/subject_menus/imt.asp"}]},
+      {"side": "for", "text": "The operation was part of a documented series of staged border incidents (Operation Himmler), using concentration camp prisoners as fake casualties.", "evidence_type": "documentary", "status": "verified", "note": "Established by post-war trials and historians.", "sources": [{"title": "US Holocaust Memorial Museum", "url": "https://encyclopedia.ushmm.org/content/en/article/invasion-of-poland-fall-1939"}]},
+      {"side": "against", "text": "German government statements blaming Polish insurgents.", "evidence_type": "named_credible_source", "status": "debunked", "note": "Propaganda later contradicted by perpetrators' own testimony.", "sources": []}
+    ],
+    "open_questions": []
+  },
+  {
+    "id": "lavon-1954",
+    "title": "Lavon Affair / Operation Susannah (Egypt, 1954)",
+    "date": "1954-07",
+    "kind": "calibration",
+    "event": "Bombs were planted at Egyptian, American and British civilian targets in Egypt.",
+    "official_account": "Initially attributed to unknown local actors.",
+    "claim": "An Israeli military intelligence cell planted the bombs, intending them to be blamed on Egyptian groups.",
+    "keywords": "Lavon Affair Operation Susannah",
+    "claim_keywords": "Lavon Affair false flag",
+    "arguments": [
+      {"side": "for", "text": "The cell was caught when a device ignited prematurely; members were tried in Egypt.", "evidence_type": "documentary", "status": "verified", "note": "Physical evidence and trial record.", "sources": [{"title": "Encyclopaedia Britannica: Lavon Affair", "url": "https://www.britannica.com/event/Lavon-Affair"}]},
+      {"side": "for", "text": "Israel publicly acknowledged the operation; in 2005 President Moshe Katsav honoured the surviving agents.", "evidence_type": "official_admission", "status": "verified", "note": "", "sources": [{"title": "Encyclopaedia Britannica: Lavon Affair", "url": "https://www.britannica.com/event/Lavon-Affair"}]}
+    ],
+    "open_questions": ["Who in Israel's government authorised the operation was disputed for years (the 'Lavon affair' itself)."]
+  },
+  {
+    "id": "northwoods-1962",
+    "title": "Operation Northwoods (USA, 1962) — planned, not executed",
+    "date": "1962-03-13",
+    "kind": "calibration",
+    "event": "A US Joint Chiefs of Staff memorandum proposed staging attacks (including a fake airliner shoot-down) to be blamed on Cuba as a pretext for war.",
+    "official_account": "The proposal was rejected by the Kennedy administration and never carried out.",
+    "claim": "The US military formally proposed false-flag operations against its own people and interests.",
+    "keywords": "Operation Northwoods",
+    "claim_keywords": "Operation Northwoods false flag",
+    "arguments": [
+      {"side": "for", "text": "The memorandum was declassified in 1997 and is publicly available.", "evidence_type": "documentary", "status": "verified", "note": "Primary document. Note: it proves a plan existed, not that any attack happened.", "sources": [{"title": "National Security Archive (GWU)", "url": "https://nsarchive2.gwu.edu/news/20010430/"}]}
+    ],
+    "open_questions": []
+  },
+  {
+    "id": "sandyhook-2012",
+    "title": "Sandy Hook 'hoax' claims (USA, 2012)",
+    "date": "2012-12-14",
+    "kind": "calibration",
+    "event": "A gunman killed 20 children and 6 staff at Sandy Hook Elementary School.",
+    "official_account": "Mass shooting by a lone gunman, documented by police, the state's attorney and the medical examiner.",
+    "claim": "The shooting was staged with crisis actors to justify gun control.",
+    "keywords": "Sandy Hook shooting",
+    "claim_keywords": "Sandy Hook hoax false flag",
+    "arguments": [
+      {"side": "for", "text": "Claims by broadcaster Alex Jones and others that the shooting was staged.", "evidence_type": "inference", "status": "debunked", "note": "Jones later conceded the shooting was real.", "sources": []},
+      {"side": "against", "text": "Courts in Connecticut and Texas found Jones liable for defamation of victims' families (2022), with damages totalling over $1.4 billion.", "evidence_type": "official_admission", "status": "verified", "note": "Court findings.", "sources": [{"title": "AP News", "url": "https://apnews.com/hub/alex-jones"}]},
+      {"side": "against", "text": "Official investigation report by the State's Attorney, with police evidence and death records.", "evidence_type": "documentary", "status": "verified", "note": "", "sources": [{"title": "Connecticut Division of Criminal Justice report", "url": "https://portal.ct.gov/dcj"}]}
+    ],
+    "open_questions": []
+  }
+]

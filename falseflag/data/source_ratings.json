@@ -1,0 +1,8 @@
+{
+  "_comment": "Factual labels for source domains. Edit freely. Labels describe ownership/type, not truth of any single article.",
+  "wire_service": ["reuters.com", "apnews.com", "afp.com"],
+  "established_outlet": ["bbc.com", "bbc.co.uk", "nytimes.com", "washingtonpost.com", "theguardian.com", "cnn.com", "ft.com", "wsj.com", "aljazeera.com", "france24.com", "dw.com", "timesofisrael.com", "jpost.com", "haaretz.com", "ynetnews.com", "thenationalnews.com", "gulfnews.com", "arabnews.com", "economist.com", "npr.org", "nbcnews.com", "cbsnews.com", "abcnews.go.com", "theweek.in", "thehindu.com"],
+  "fact_checker": ["snopes.com", "politifact.com", "factcheck.org", "fullfact.org", "leadstories.com", "observers.france24.com", "logically.ai"],
+  "state_affiliated": ["presstv.ir", "rt.com", "sputniknews.com", "tass.com", "tass.ru", "cgtn.com", "globaltimes.cn", "tasnimnews.com", "farsnews.ir", "irna.ir", "kcna.kp"],
+  "social_media": ["x.com", "twitter.com", "reddit.com", "facebook.com", "t.me", "youtube.com", "tiktok.com", "instagram.com"]
+}
